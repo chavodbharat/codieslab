@@ -1,0 +1,1 @@
+[Sat Sep 03 17:59:15.518239 2022] [php7:notice] [pid 40075] [client 127.0.0.1:40790] WordPress database error Unknown column 'codi_' in 'field list' for query SELECT codi_, referer: http://codieslab.local/wp-admin/setup-config.php?step=1

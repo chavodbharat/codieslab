@@ -1,0 +1,10 @@
+.vscode
+.git
+.DS_Store
+wp-content/cache
+wp-content/updraft
+wp-content/wflogs
+wp-config.php
+/nbproject/private/
+error_log
+access.log

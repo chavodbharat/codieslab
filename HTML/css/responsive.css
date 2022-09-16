@@ -1,0 +1,691 @@
+@media only screen and (max-width: 1199px){
+    .globalLeader {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: var(--color-white);
+    }
+    
+    .globalLeader .innerWrap{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .ourService-2 {
+        margin-top: 0;
+    }
+    .globalLeader .innerWrap .txt{
+        margin-bottom: 20px;
+    }
+    .globalLeader .innerWrap .txt,
+    .globalLeader .counterBox{
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1200px){
+    html .secNavToggleMobile,
+    .mobileAftNv,    
+    .mainNav .innerNavWrap .mCustomScrollBox .mCSB_scrollTools{
+        display: none !important;
+    }
+    .mainNav .innerNavWrap .mCustomScrollBox, 
+    .mainNav .innerNavWrap .mCustomScrollBox .mCSB_container {
+        visibility: visible;
+        overflow: visible;
+        position: static !important;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .withSideScroll .sideSocial{
+        right: calc(100% - 40px);
+    }
+    .homeBanner.withSideScroll .mnCntBanner,
+    .withSideScroll .businessTrust{
+        padding-left: 70px;
+    }
+    .homeBanner.withContact{
+        padding-bottom: 160px;
+    }
+    .homeBanner.withSideScroll .mnCntBanner{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .homeBanner .mnCntBanner .textSide{
+        order: 2;
+    }
+    .homeBanner .mnCntBanner .imageSide{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .businessTrust .btWrap .item{
+        margin-bottom: 10px;
+    }
+    .homeBanner .mnCntBanner .textSide .txtWrap h1{
+        font-size: 2.25rem;
+    }
+    .whoWeAre .row,
+    .globalLeader .innerWrap,
+    .ourServiceDsn .row{
+        flex-wrap: wrap;
+    }
+    .whoWeAre .row > .part-md-6,
+    .globalLeader .counterBox,
+    .globalLeader .counterBox .item{
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .section{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .whoWeAre .row > .part-md-6:first-child{
+        order: 2;
+    }
+    .whoWeAre .row > .part-md-6:last-child{
+        order: 1;
+    }
+    .servicesDesign .item{
+        flex: 0 0 50%;
+        width: 50%;
+        max-width: 50%; 
+    }
+    .servicesDesign .item:nth-child(2n), .servicesDesign .item:nth-last-child(2) {
+        border-color: transparent;
+    }
+    .viewAllBox .txt{
+        margin-bottom: 20px;
+        margin-right: 0;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .caseDesign .item .innerWrap{
+        padding: 10px;
+    }
+    .caseDesign h3{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .globalLeader .innerWrap .txt{
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .title h2 {
+        font-size: 1.6rem;
+    }
+    .ourService-2 .title {
+        margin-bottom: 50px;
+    }
+    .ourServiceDsn .row > .part-md-6,
+    .footElement .part-md-5,
+    .footElement .part-md-7,
+    .developmentBox .item{
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .ourServiceDsn .row .clientLogoBox{
+        margin-bottom: 20px;
+    }
+    .latestFeeds{
+        margin-bottom: 0px;
+    }
+    .location{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .location .item{
+        flex: 0 0 50%;
+        width: 50%;
+        max-width: 50%;
+    }
+    .location .item{
+        margin-bottom: 20px;
+    }
+    .footElement .part-md-5{
+       margin-bottom: 30px;
+    }
+    .mainNav{
+        display: none;
+    }
+    .header .innerHdWrap .logo img{
+        max-width: 150px;
+        display: block;
+    }
+    .header .innerHdWrap{
+        border-bottom: 1px solid var(--color-white-06);
+    }
+    .header .innerHdWrap .logo img.desktop{
+        display: none;
+    }
+    .header .innerHdWrap .logo img.mobile{
+        display: block;
+    }
+    .dataVisual .item .textPt h3 br,
+    .globalLeader .innerWrap .txt h2 br{
+        display: none;
+    }
+    br{
+        display: none;
+    }
+    .workDetailBanner .imgPart .technolorgyLogo{
+        width: 50px;
+        height: 50px;
+        left: -25px;
+        top: 15px;
+    }
+    .workDetailBanner .imgPart .innerWrap{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .workDetailBanner h1 {
+        font-size: 28px;
+    }
+    .workDetailBanner{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .testimonialMain.darkBg .item .innerWrap{
+        padding:15px;
+    }
+    .testimonialMain .item .innerWrap .head img{
+        max-width: 120px;
+    }
+    .noBanner header.header:not(.fixedHeader) .innerHdWrap {
+        background: rgb(0 0 0 / 65%);
+    }
+    .design-02.servicesDesign .item:nth-child(3n){
+        border-right-color: var(--color-pink);
+    }
+    .design-02.servicesDesign .item:nth-child(2n),
+    .design-02.servicesDesign .item:last-child{
+        border-right-color: transparent;
+    }
+    .developmentBox .item{
+        padding-left: 50px;
+        margin-top: 0;
+    }
+    .developmentBox .item::before,
+    .developmentBox .item:first-child:before, .developmentBox .item:last-child:before{
+        width: 40px;
+        left: 16px;
+        top: 50%;
+    }
+    .developmentBox .item::after,
+    .developmentBox .item:nth-child(2)::after{
+        width: 1px;
+        height: 100%;
+        left: 15px;
+        top: 0;
+    }
+    .developmentBox .item:first-child:after{
+        height: 50%;
+        top: auto;
+        bottom: 0;
+    }
+    .developmentBox .item:last-child:after{
+        height: 50%;
+    }
+    .successContinuing .txtSide{
+        padding-top: 0;
+    }
+    .successContinuing {
+        padding-bottom: 30px !important;
+    }
+    .successContinuing .imageSide{
+        margin-bottom: 20px;
+    }    
+    html .secNavToggle{
+        display: none;
+    }
+    .mainNav{
+        /* position: absolute; */
+        /* top: 100%; */
+        width: 100%;
+        left: 0;
+        background-color: var(--color-nevy-blue-01);
+        /* max-height: 500px; */
+        /* overflow: auto; */
+        position: fixed;
+        top: 108px;
+        left: 0;
+        height: 100%;
+        z-index: 999;
+        max-height: calc(100% - 108px);
+        background-image: url("../img/banner-bottom-layer.svg");
+        background-repeat: no-repeat;
+        background-position: 0 100%;
+        background-size: auto;
+        transition: all ease 0.5s;
+    }
+    html header.header,
+    header.header.fixedHeader{
+        background-color: var(--color-nevy-blue-01);
+    }
+    .mainNav.show{
+        display: block;
+    }
+    .header.fixedHeader .mainNav{
+        top: 64px;
+        max-height: calc(100% - 64px);
+    }
+    
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap > ul, 
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap .mCSB_container > ul {
+        flex-wrap: wrap;
+    }
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap  > ul > li,
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap .mCSB_container > ul > li{
+        flex:0 0 100%;
+    }
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap > ul > li > a,
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap .mCSB_container > ul > li > a{ 
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--color-white-03);
+        width: 100%;
+    }
+    .dowpDown{
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: initial;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .dowpDown{
+        background-color: transparent;
+        margin: 0;
+        padding: 15px 10px;
+    }
+    .dowpDown .dropCont{
+        padding: 0;
+        background-color: transparent;
+    }
+    .dowpDown .dropCont ul li{
+        margin-bottom: 5px;
+    }
+    .dowpDown .dropCont ul li a {
+        background-color: var(--color-blue-01);
+    }
+    .dowpDown .dropCont ul li a h5,
+    .dowpDown .dropCont ul li a p{
+        color: var(--color-white);
+
+    }
+    .dowpDown .dropCont ul li a.active, .dowpDown .dropCont ul li a:hover, .dowpDown .dropCont ul li a:focus, .dowpDown .dropCont ul li a:active {
+        background-color: var(--color-white);
+    }
+    .dowpDown .dropCont ul li a.active h5, 
+    .dowpDown .dropCont ul li a:hover h5, 
+    .dowpDown .dropCont ul li a:focus h5, 
+    .dowpDown .dropCont ul li a:active h5, 
+    .dowpDown .dropCont ul li a.active p, 
+    .dowpDown .dropCont ul li a:hover p, 
+    .dowpDown .dropCont ul li a:focus p, 
+    .dowpDown .dropCont ul li a:active p{
+        color: var(--color-blue-01);
+    }
+    .dowpDown .dropFoot,
+    .navBtnWrap .btn-navContact,
+    .navBtnWrap .btn-getQuote{
+        display: none;
+    }
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap > ul > li:last-child > a
+    .header .innerHdWrap .navWrapDv .mainNav > .innerNavWrap .mCSB_container > ul > li:last-child > a{
+        border-color: transparent;
+    }
+    .mainNav > .innerNavWrap{
+        height: calc(100vh - 388px);
+        transition: all ease 0.5s;
+    }
+    .header.fixedHeader .mainNav > .innerNavWrap{
+        height: calc(100vh - 348px);
+    }
+}
+@media only screen and (max-width: 991px){
+    .homeBanner .mnCntBanner{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 767px){
+    .blogItems,
+    .workDetailBanner > .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .servicesDesign .item,
+    .location .item,
+    .humMenuPop .ui-tabs .leftMainMenu,
+    .humMenuPop .ui-tabs .rightSubMenu{
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .servicesDesign .item:nth-child(1n), 
+    .servicesDesign .item:nth-last-child(2) {
+        border-color: transparent;
+    }
+    .btnSet,
+    .globalLeader .counterBox,
+    .footerBottom .innerWrap{
+        flex-wrap: wrap;
+    }
+    .businessTrust .btWrap .txt{
+        flex: 0 0 100%;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .businessTrust .btWrap .item{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    .businessTrust{
+        margin-bottom: 0;
+    }
+    .sidePatro > span{
+        display: none;
+    }
+    .sidePatro .item{
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 2px dashed var(--color-pink);
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .whoWeAre{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .btn{
+        white-space: unset;
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+    .whoWeAre .row > .part-md-6:first-child{
+        order: 1;
+    }
+    .whoWeAre .row > .part-md-6:last-child {
+        order: 2;
+    }
+    .servicesDesign.servicesDesign .item{
+        padding: 30px 15px;
+        border-bottom: 2px dashed var(--color-pink);
+        margin-bottom: 0;
+    }
+    .servicesDesign.servicesDesign .item:nth-last-child(1), 
+    .servicesDesign.servicesDesign .item:nth-last-child(2) {
+        border-right-color: transparent;
+    }
+    .ourService .title{
+        margin-bottom: 30px;
+    }
+    .servicesDesign.servicesDesign .item:nth-last-child(1){
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .caseStudies .caseDesign .item{
+        margin-bottom: 20px;
+    }
+    .caseDesign .item .innerWrap{
+        padding: 20px;
+    }
+    .sidePatro .item:last-child{
+        border-bottom-color: transparent;
+    }
+    .caseStudies .caseDesign .item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .globalLeader .counterBox .item{
+        border-bottom: 2px dashed var(--color-pink);
+        border-right-color: transparent;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .globalLeader .counterBox .item:last-child{
+        border-bottom: transparent;
+    }
+    .globalLeader .innerWrap{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ourServiceDsn .row .clientLogoBox{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .clientLogoBox .innerWrap .item,
+    .quickLinksFoot .part-md-4{
+        flex: 0 0 50%;
+        width: 50%;
+        max-width: 50%;
+    }
+    .clientLogoBox .innerWrap .item:nth-child(3n){
+        border-right: 1px solid var(--color-pink-border);
+    }
+    .clientLogoBox .innerWrap .item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    .testimonialMain{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .withBtn{
+        flex-wrap: wrap;
+    }
+    .withBtn .titleSide{
+        margin-bottom: 15px;
+    }
+    .latestFeeds .ltFeeds .item{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+    footer .footerTop,
+    .quickLinksFoot{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .quickLinksFoot .part-md-4{
+        margin-bottom: 20px;
+    }
+    .footElement,
+    .blogMainContainer{
+        padding-bottom: 30px;
+    }
+    .globalLeader .counterBox .item form input[type="text"]{
+        margin-right: 10px;
+    }
+    .footerBottom .innerWrap .copyWrite{
+        padding: 15px 8px;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .footerBottom a{
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .navBtnWrap{
+        align-items: center;
+    }
+    .header .innerHdWrap .navWrapDv .navBtnWrap .btn{
+        padding: 10px 15px;
+        margin-right: 8px;
+    }
+    .header .innerHdWrap .navWrapDv .navBtnWrap .btn:last-child{
+        margin-right: 0;
+    }
+    .header .innerHdWrap .navWrapDv .navBtnWrap .btn.secNavToggle{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .humMenuPop .ui-tabs .leftMainMenu .logoPop{
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .humMenuPop .ui-widget.ui-widget-content{
+        flex-wrap: wrap;
+        min-height: auto;
+    }
+    .humMenuPop .ui-tabs .leftMainMenu{
+        min-height: auto;
+    }
+    .humMenuPop .ui-tabs .leftMainMenu .menuPop{
+        height: auto;
+        overflow: unset;
+    }
+    
+    .humMenuPop .ui-tabs .rightSubMenu{
+        margin-bottom: 15px;
+    }
+    .anIntegrated .ui-tabs .ui-tabs-nav{
+        flex-wrap: wrap;
+    }
+    .productService .item{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-color: transparent;
+        border-bottom: 2px dashed var(--color-pink);
+    }
+    .productService .item:last-child{
+        border-color: transparent;
+    }
+    .productService{
+        margin-bottom: 30px;
+    }
+    .globalLeader .innerWrap{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .ourService-2{
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .caseStudies{
+        padding-bottom: 50px;
+    }
+    .globalLeader{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .dataVisual .item .imgPt{
+        order: 1;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .dataVisual .item .textPt{
+        order: 2;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .ltFeeds .item .innerWrap .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .dataVisual .item .textPt,
+    .onlyContentPage .innerWrap{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .collapseMain .ui-accordion-header{
+        font-size: 18px;
+    }
+    .footElement .quickLinksFoot{
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+    .afterBlog .afterBlogMn {
+        padding: 50px 15px;
+    }
+    .blogDtailimagePt .themeImg,
+    .blogContaint,
+    .onlyContentPage{
+        padding-bottom: 0;
+    }
+    .pageContent,
+    .onlyContentPage,
+    .afterBlog.withPortfolio{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .workDetailBanner{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .workDetailBanner .imgPart .technolorgyLogo{
+        right: 20px;
+        left: auto;
+        top: -25px;
+    }
+    .workDetailBanner .contPart{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .projectBrief .techPart{
+        flex-wrap: wrap;
+    }
+    .projectBrief .techPart > *{
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .projectBrief .techPart > .serviceSide{
+        margin-bottom: 15px;
+    }
+    .challengeSec{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .aboutClient .testimonialMain,
+    .homeBanner .mnCntBanner .textSide, .homeBanner .mnCntBanner .imageSide{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .successContinuing .txtSide{
+        order: 2;
+    }
+    .successContinuing .imageSide {
+        order: 1;
+    }
+    .servicesDesign.design-02 .item:nth-last-child(1){
+        padding: 30px 15px;
+    }
+    .design-02.servicesDesign .item:nth-child(3n){
+        border-right-color: transparent;
+    }
+    .contMailPhone .item .icon{
+        width: 70px;
+        height: 70px;
+    }
+    .contMailPhone .item .icon img {
+        width: 40px;
+    }
+    
+    .homeBanner.withSideScroll .mnCntBanner,
+    .withSideScroll .businessTrust{
+        padding-left: 40px;
+    }
+    .businessTrust .btWrap .bannerClientSlider{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
