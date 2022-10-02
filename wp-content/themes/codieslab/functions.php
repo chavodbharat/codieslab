@@ -138,10 +138,75 @@ add_action( 'widgets_init', 'codieslab_widgets_init' );
  * Enqueue scripts and styles.
  */
 function codieslab_scripts() {
+	$theme_version = wp_get_theme()->get( 'Version' );
+	$version_string = is_string( $theme_version ) ? $theme_version : false;
 	wp_enqueue_style( 'codieslab-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'codieslab-style', 'rtl', 'replace' );
+//	wp_enqueue_style( 'codieslab-responsive', get_template_directory_uri() .'/asserts/css/responsive.css', array(), _S_VERSION, true );
 
-	wp_enqueue_script( 'codieslab-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	//wp_style_add_data( 'codieslab-style', 'rtl', 'replace' );
+	//wp_enqueue_style( 'codieslab-styletheme', get_template_directory_uri() . '/asserts/css/style.css', array(), _S_VERSION, true );
+		wp_register_style(
+			'codieslab-responsive',
+			get_template_directory_uri() . '/asserts/css/responsive.css',
+			array(),
+			$version_string
+		);
+		wp_register_style(
+			'codieslab-rootvariable',
+			get_template_directory_uri() . '/asserts/css/variable.css',
+			array(),
+			$version_string
+		);
+
+		wp_register_style(
+			'codieslab-jqueryUicss',
+			get_template_directory_uri() . '/asserts/css/jquery-ui.css',
+			array(),
+			$version_string
+		);
+		wp_register_style(
+			'codieslab-mCustomScrollbar',
+			get_template_directory_uri() . '/asserts/css/jquery.mCustomScrollbar.css',
+			array(),
+			$version_string
+		);
+
+		wp_register_style(
+			'codieslab-owlcarousel',
+			get_template_directory_uri() . '/asserts/css/owl.carousel.min.css',
+			array(),
+			$version_string
+		);
+		wp_register_style(
+			'codieslab-owltheme',
+			get_template_directory_uri() . '/asserts/css/owl.theme.default.min.css',
+			array(),
+			$version_string
+		);
+	// Enqueue theme stylesheet.
+	wp_enqueue_style( 'codieslab-responsive' );
+	wp_enqueue_style( 'codieslab-rootvariable');
+	wp_enqueue_style( 'codieslab-jqueryUicss');
+	// Enqueue theme stylesheet.
+	
+	//wp_enqueue_style( 'codieslab-jqueryUicss', get_template_directory_uri() . '/asserts/css/jquery-ui.css', array(), _S_VERSION, true );
+
+	wp_enqueue_style( 'codieslab-mCustomScrollbar');
+	wp_enqueue_style( 'codieslab-owlcarousel' );
+	wp_enqueue_style( 'codieslab-owltheme');
+
+	//http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+
+	wp_enqueue_script( 'codieslab-jquery','https://code.jquery.com/jquery-3.6.0.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'codieslab-fontawesomejs','https://kit.fontawesome.com/4a295db44c.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'codieslab-jqueryUijs','https://code.jquery.com/ui/1.13.2/jquery-ui.js', array(), _S_VERSION, true );
+
+
+	wp_enqueue_script( 'codieslab-jsmCustomScrollbar', get_template_directory_uri() . '/asserts/js/jquery.mCustomScrollbar.concat.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'codieslab-carouseljs', get_template_directory_uri() . '/asserts/js/owl.carousel.js', array(), _S_VERSION, true );
+
+	wp_enqueue_script( 'codieslab-custom', get_template_directory_uri() . '/asserts/js/custom.js', array(), _S_VERSION, true );
+	//wp_enqueue_script( 'codieslab-navigation', get_template_directory_uri() . '/asserts/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -153,6 +218,12 @@ add_action( 'wp_enqueue_scripts', 'codieslab_scripts' );
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
+
+/**
+ * Implement the Custom Header feature.
+ */
+require get_template_directory() . '/inc/custom-cpt.php';
+
 
 /**
  * Custom template tags for this theme.

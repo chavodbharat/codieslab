@@ -1,32 +1,10 @@
-/*!
-Theme Name: codieslab
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: codieslab
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-codieslab is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap');
 
-@import url('./asserts/css/variable.css');
+@import url('./variable.css');
 
 /*
 font-family: 'Open Sans', sans-serif;
@@ -280,7 +258,7 @@ p{
     position: absolute;
     width: 15px;
     height: 15px;
-    background-image: url("./asserts/img/arrow-right-dmy.png");
+    background-image: url("../img/arrow-right-dmy.png");
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: center;
@@ -307,7 +285,7 @@ p{
     height: 30px;
     background: var(--color-white);
     border-radius: 50%;
-    background-image: url("./asserts/img/arrow-right-dmy.png");
+    background-image: url("../img/arrow-right-dmy.png");
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: center;
@@ -589,7 +567,7 @@ header.header.fixedHeader{
     content: "";
     width: 45px;
     height: 45px;
-    background-image: url("./asserts/img/dropdown-art.svg");
+    background-image: url("../img/dropdown-art.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
     right: 0;
@@ -647,7 +625,7 @@ header.header.fixedHeader{
     /* min-height: 100vh; */
     padding-top: 171px;
     padding-bottom: 50px;
-    background-image: url("./asserts/img/banner-bottom-layer.svg");
+    background-image: url("../img/banner-bottom-layer.svg");
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
@@ -707,7 +685,7 @@ header.header.fixedHeader{
     color: var(--color-white-op-06);
     max-width: 205px;
     padding-right: 30px;
-    background-image: url("./asserts/img/path-01.svg");
+    background-image: url("../img/path-01.svg");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -979,7 +957,7 @@ header.header.fixedHeader{
     bottom: 0;
     width: 76px;
     height: 76px;
-    background-image: url("./asserts/img/bg-style-image-01.svg");
+    background-image: url("../img/bg-style-image-01.svg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 100% 100%;
@@ -992,7 +970,7 @@ header.header.fixedHeader{
     bottom: 0;
     width: 220px;
     height: 220px;
-    background-image: url("./asserts/img/bg-style-image-02.svg");
+    background-image: url("../img/bg-style-image-02.svg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 100% 100%;
@@ -1005,7 +983,7 @@ header.header.fixedHeader{
     bottom: 0;
     width: 220px;
     height: 220px;
-    background-image: url("./asserts/img/bg-art-testimonial.svg");
+    background-image: url("../img/bg-art-testimonial.svg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 100% 100%;
@@ -1107,7 +1085,7 @@ header.header.fixedHeader{
 }
 .caseStudies{
     background-color: var(--color-nevy-blue-01);
-    background-image: url(./asserts/img/banner-bottom-layer.svg);
+    background-image: url(../img/banner-bottom-layer.svg);
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
@@ -1368,7 +1346,7 @@ header.header.fixedHeader{
     margin-bottom: 5px;
 }
 .globalLeader .innerWrap{
-    background-image: url(./asserts/img/bg-art-global-leader-01.svg);
+    background-image: url(../img/bg-art-global-leader-01.svg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
@@ -1378,7 +1356,7 @@ footer .footerTop {
     margin-top: -90px;
     padding-top: 150px;
     color: var(--color-white);
-    background-image: url(./asserts/img/banner-bottom-layer.svg);
+    background-image: url(../img/banner-bottom-layer.svg);
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
@@ -1461,10 +1439,10 @@ footer .footerTop {
     background-position: center;
 }
 .contactDtl li.phone::before{
-    background-image: url(./asserts/img/ico-location-phone.svg);
+    background-image: url(../img/ico-location-phone.svg);
 }
 .contactDtl li.mail::before{
-    background-image: url(./asserts/img/ico-location-mail.svg);
+    background-image: url(../img/ico-location-mail.svg);
 }
 .footElement{
     color: var(--color-white-op-06);
@@ -1587,13 +1565,13 @@ html .secNavToggleMobile img{
     opacity: 0;
 }
 html .secNavToggleMobile{
-    background-image: url(./asserts/img/menu-humburger.svg);
+    background-image: url(../img/menu-humburger.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 26px;
 }
 html .secNavToggleMobile.show{
-    background-image: url(./asserts/img/menu-times.svg);
+    background-image: url(../img/menu-times.svg);
 }
 html .secNavToggle img,
 html .secNavToggleMobile img{
@@ -2098,7 +2076,7 @@ html .secNavToggleMobile img{
 }
 .withServices .businessTrust .btWrap .txt{
     color: var(--color-nevy-blue-01);
-    background-image: url(./asserts/img/path-01-black.svg);
+    background-image: url(../img/path-01-black.svg);
 }
 .withServices.homeBanner .mnCntBanner .textSide .txtWrap h1,
 .withServices.homeBanner .mnCntBanner .textSide .txtWrap p{
@@ -2253,13 +2231,13 @@ html .secNavToggleMobile img{
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
             transform: translate(0, -50%);
-    background-image: url('/asserts/img/collapse-minus.svg');
+    background-image: url('/img/collapse-minus.svg');
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .collapseMain .ui-accordion-header.ui-state-active::after{
-    background-image: url('/asserts/img/collapse-plus.svg');
+    background-image: url('/img/collapse-plus.svg');
 }
 .collapseMain .ui-accordion-header.ui-state-active{
     border-color: transparent;
@@ -2316,7 +2294,7 @@ html .secNavToggleMobile img{
 }
 .afterBlog .afterBlogMn{
     padding: 100px 65px;
-    background-image: url('/asserts/img/blog-page-headding-bg.png');
+    background-image: url('/img/blog-page-headding-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2358,7 +2336,7 @@ html .secNavToggleMobile img{
     border: 1px solid rgb(134 134 134 / 35%);
     padding-left: 47px;
     font-size: 12px;
-    background-image: url('./asserts/img/search-icon.svg');
+    background-image: url('../img/search-icon.svg');
     background-repeat: no-repeat;
     background-position: 15px center;
 }
@@ -2544,7 +2522,7 @@ html .secNavToggleMobile img{
 .themeImg::before,
 .summery::before{
     content: "";
-    background-image: url('./asserts/img/single-blog-clipart-top-left.svg');
+    background-image: url('../img/single-blog-clipart-top-left.svg');
     width: 90px;
     height: 90px;
     position: absolute;
@@ -2717,7 +2695,7 @@ html .secNavToggleMobile img{
 }
 .projectBrief .techPart .serviceSide ul li a::before{
     content: "";
-    background-image: url('./asserts/img/angle-right.svg');
+    background-image: url('../img/angle-right.svg');
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -2788,7 +2766,7 @@ html .secNavToggleMobile img{
     left: 0;
     bottom: 0;
     position: absolute;
-    background-image: url(./asserts/img/banner-bottom-layer.svg);
+    background-image: url(../img/banner-bottom-layer.svg);
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
