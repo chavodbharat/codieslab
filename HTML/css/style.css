@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap');
@@ -258,7 +257,7 @@ p{
     position: absolute;
     width: 15px;
     height: 15px;
-    background-image: url("../img/arrow-right-dmy.png");
+    background-image: url("../asserts/img/arrow-right-dmy.png");
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: center;
