@@ -241,6 +241,11 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Custom Shortcode Lists.
+ */
+require get_template_directory() . '/inc/shortcode.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
@@ -269,4 +274,221 @@ if( function_exists('acf_add_options_page') ) {
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	
+}
+
+define( 'MY_PLUGIN_DIR_PATH', untrailingslashit( get_stylesheet_directory() ) );
+
+add_filter('acf/settings/save_json', 'my_acf_json_save_point');
+ 
+function my_acf_json_save_point( $path ) {
+    
+    // Update path
+    $path = MY_PLUGIN_DIR_PATH. '/acf-json';
+    // Return path
+    return $path;
+    
+}
+add_filter('acf/settings/load_json', 'my_acf_json_load_point');
+
+/*
+ * Register the path to load the ACF json files so that they are version controlled.
+ * @param $paths The default relative path to the folder where ACF saves the files.
+ * @return string The new relative path to the folder where we are saving the files.
+*/ 
+
+function my_acf_json_load_point( $paths ) {
+   // Remove original path
+   unset( $paths[0] );// Append our new path
+   $paths[] = MY_PLUGIN_DIR_PATH. '/acf-json';   
+   return $paths;
+}
+
+
+function register_codieslab_header_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_codieslab_header_menu' );
+
+function register_codieslab_header_popupmenu() {
+  register_nav_menu('header-popupmenu',__( 'Header Popup Menu' ));
+}
+add_action( 'init', 'register_codieslab_header_popupmenu' );
+
+function register_codieslab_footer_menu() {
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_codieslab_footer_menu' );
+
+function register_codieslab_footer_bottom_menu() {
+  register_nav_menu('footer-bottom-menu',__( 'Footer Bottom Menu' ));
+}
+add_action( 'init', 'register_codieslab_footer_bottom_menu' );
+
+
+/**
+* Define a constant path to our single template folder
+*/
+define('SINGLE_PATH', TEMPLATEPATH);
+
+/**
+* Filter the single_template with our custom function
+*/
+add_filter('single_template', 'single_post_template_override');
+  
+/**
+* Single template function which will choose our template
+*/
+function single_post_template_override($single) {
+	
+	global $wp_query, $post;
+	
+	if ( $post->post_type == 'post' ) {
+
+		return SINGLE_PATH . '/single-post.php';
+		 
+	}elseif( $post->post_type == 'casestudy' ){
+
+		return SINGLE_PATH . '/single-casestudy.php';
+		
+	}else{
+  		return $single;
+	}	  
+}
+
+function check_number($number){
+    if($number % 2 == 0){
+        return "pinkHighlight"; 
+    }
+    else{
+        return "whiteHighlight";
+    }
+}
+function createidslug($string){
+   $slug=preg_replace('/[^A-Za-z0-9-]+/', '-', $string);
+   return $slug;
+}
+class WPSE_headermenu_Walker extends Walker_Nav_Menu
+{
+    function start_lvl( &$output, $depth = 0, $args = array() ) {
+        $indent = str_repeat("\t", $depth);
+        $output .= "\n$indent<div class='dowpDown'>
+                                 <div class='dropCont'><ul class='sub-menu'>\n";
+    }
+    function end_lvl( &$output, $depth = 0, $args = array() ) {
+        $indent = str_repeat("\t", $depth);
+        $output .= "$indent</ul>
+        				</div>
+        				<div class='dropFoot'>
+                            <p><img src='./img/help-icon.svg' alt='' class='mCS_img_loaded'> <strong>Not finding</strong> what you are looking for ?</p>
+                            <a href='./contact.html' class='btn btn-navContact'>Contact us</a>
+                        </div>
+                    </div>\n";
+    }
+
+    function start_el ( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+
+	    global $wp_query, $wpdb;
+	    $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+
+	    $class_names = $value = '';
+
+	    $classes = empty( $item->classes ) ? array() : (array) $item->classes;
+	    $classes[] = 'menu-item-' . $item->ID;
+
+	    $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+	    $class_names = ' class="' . esc_attr( $class_names ) . '"';
+
+	    $id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+	    $id = strlen( $id ) ? ' id="' . esc_attr( $id ) . '"' : '';	  
+
+	    // $has_children = $wpdb->get_var("SELECT COUNT(meta_id)
+     //                        FROM wp_postmeta
+     //                        WHERE meta_key='_menu_item_menu_item_parent'
+     //                        AND meta_value='".$item->ID."'");
+
+	    $output .= $indent . '<li' . $id . $value . $class_names .'>';
+
+	    $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+	    $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+	    $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+	    $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+
+	    $item_output = $args->before;
+	    $item_output .= '<a'. $attributes .'>';
+	    if ($depth == 1 ) {
+	    	$item_output .= $args->link_before .'<h5>'. apply_filters( 'the_title', $item->title, $item->ID ) .'</h5><p>' . apply_filters( 'the_title', $item->description, $item->ID ).'</p>' . $args->link_after;
+	    }else{
+
+	   		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+	    }
+	    $item_output .= '</a>';
+	    $item_output .= $args->after;
+
+	    $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+	  }
+
+}
+class WPSE_footer_Walker extends Walker_Nav_Menu
+{
+    function start_lvl( &$output, $depth = 0, $args = array() ) {
+        $indent = str_repeat("\t", $depth);
+        $output .= "\n$indent<ul class='sub-menu'>\n";
+    }
+    function end_lvl( &$output, $depth = 0, $args = array() ) {
+        $indent = str_repeat("\t", $depth);
+        $output .= "$indent</ul>\n";
+    }
+    function end_el (&$output, $data_object, $depth = 0, $args = null) {
+		if ($depth == 0) {
+			$indent = str_repeat("\t", $depth);
+			$output .= "$indent</div>\n";			
+		}
+	}
+    function start_el ( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+
+	    global $wp_query, $wpdb;
+	    $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+
+	    $class_names = $value = '';
+
+	    $classes = empty( $item->classes ) ? array() : (array) $item->classes;
+	    $classes[] = 'menu-item-' . $item->ID;
+
+	    $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+	    $class_names = ' class="' . esc_attr( $class_names ) . '"';
+
+	    $id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+	    $id = strlen( $id ) ? ' id="' . esc_attr( $id ) . '"' : '';	  
+
+	   // $output .= $indent . '<li' . $id . $value . $class_names .'>';
+	   
+	    $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+	    $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+	    $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+	    $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+
+
+	    if ($depth == 0) {
+
+	    	$output .= $indent .'<div class="part-md-4">';
+		  	
+		  	$item_output = $args->before;
+		    $item_output .= '<h5>'.$args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after.'</h5>';
+		    $item_output .= $args->after;		   
+	    	
+	    }else{
+	    	
+	    	$output .= $indent . '<li' . $id . $value . $class_names .'>';
+
+		  	$item_output = $args->before;
+		    $item_output .= '<a'. $attributes .'>';
+		   
+		    $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+		  
+		    $item_output .= '</a>';
+		    $item_output .= $args->after;
+	    }
+	  
+	    $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+	}
 }

@@ -9,164 +9,144 @@
  * @package codieslab
  */
 
-?>
-<footer>
-         <!-- global leader start -->
-         <div class="globalLeader">
-            <div class="container">
-               <div class="innerWrap">
-                  <div class="txt">
-                     <h2>Subscribe to our newsletter for an <br>insight from the world of coders</h2>
-                  </div>
-                  <div class="counterBox">
-                     <div class="item">
-                        <form>
-                           <input type="text" placeholder="Your email">
-                           <button type="submit" class="btn btn-getQuote size-01">SUBMIT</button>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="footerTop">
-            <div class="container">
-               <div class="location row">
-                  <div class="item part-md-4">
-                     <div class="innerWrap">
-                        <div class="img">
-                           <img src="<?php echo get_template_directory_uri(); ?>/asserts/img/foot-contact-01.svg" alt="" />
-                        </div>
-                        <div class="txt">
-                           <h4>INDIA (HO)</h4>
-                           <p>5th floor, 511-512 Vihav Supermus gotri Vadodara, Gujarat 390021</p>
-                           <ul class="contactDtl">
-                              <li class="phone"><a href="tel:+919877654456">+91-987 7654 456</a></li>
-                              <li class="mail"><a href="mail:hello@codieslab.com">hello@codieslab.com</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item part-md-4">
-                     <div class="innerWrap">
-                        <div class="img">
-                           <img src="<?php echo get_template_directory_uri(); ?>/asserts/img/foot-contact-02.svg" alt="" />
-                        </div>
-                        <div class="txt">
-                           <h4>USA</h4>
-                           <p>The Woodlands,<br>Texas 77380</p>
-                           <ul class="contactDtl">
-                              <li class="phone"><a href="tel:+919877654456">+91-987 7654 456</a></li>
-                              <li class="mail"><a href="mail:hello@codieslab.com">hello@codieslab.com</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item part-md-4">
-                     <div class="innerWrap">
-                        <div class="img">
-                           <img src="<?php echo get_template_directory_uri(); ?>/asserts/img/foot-contact-01.svg" alt="" />
-                        </div>
-                        <div class="txt">
-                           <h4>INDIA (HO)</h4>
-                           <p>5th floor, 511-512 Vihav Supermus gotri Vadodara, Gujarat 390021</p>
-                           <ul class="contactDtl">
-                              <li class="phone"><a href="tel:+919877654456">+91-987 7654 456</a></li>
-                              <li class="mail"><a href="mail:hello@codieslab.com">hello@codieslab.com</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="footElement row">
-                  <div class="part-md-5">
-                     <div class="footLogo">
-                        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/asserts/img/logo-footer.svg" alt=""/></a>
-                     </div>
-                     <p>Agency provides a full service range including technical skills, design, business understanding.</p>
-                     <div class="connect">
-                        <p>We’re Always happy to Help</p>
-                        <p><a href="mailto:sales@codieslab.com" class="mail">sales@codieslab.com</a> </p>
-                        <div class="socialBtn">
-                           <ul>
-                              <li><a href="#!"><img src="<?php echo get_template_directory_uri(); ?>/asserts/img/social-insta.svg" alt="" /> </a> </li>
-                              <li><a href="#!"><img src="<?php echo get_template_directory_uri(); ?>/asserts/img/social-fb.svg" alt="" /> </a> </li>
-                              <li><a href="#!"><img src="<?php echo get_template_directory_uri(); ?>/asserts/img/social-twitter.svg" alt="" /> </a> </li>
-                              <li><a href="#!"><img src="<?php echo get_template_directory_uri(); ?>/asserts/img/social-youtube.svg" alt="" /> </a> </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="part-md-7">
-                     <div class="quickLinksFoot">
-                        <div class="row">
-                           <div class="part-md-4">
-                              <h5>Quick Links</h5>
-                              <ul>
-                                 <li><a href="#!">About us</a></li>
-                                 <li><a href="#!">Partner with us</a></li>
-                                 <li><a href="#!">Case study</a></li>
-                                 <li><a href="#!">Blog</a></li>
-                                 <li><a href="#!">Case study</a></li>
-                                 <li><a href="#!">Contact US</a></li>
-                              </ul>
-                           </div>
-                           <div class="part-md-4">
-                              <h5>Our Services</h5>
-                              <ul>
-                                 <li><a href="#!">Web Development</a></li>
-                                 <li><a href="#!">E-com Solution</a></li>
-                                 <li><a href="#!">Salesforce</a></li>
-                                 <li><a href="#!">Saas</a></li>
-                                 <li><a href="#!">Salesforce</a></li>
-                                 <li><a href="#!">Saas</a></li>
-                              </ul>
-                           </div>
-                           <div class="part-md-4">
-                              <h5>Hire Developers</h5>
-                              <ul>
-                                 <li><a href="#!">Angular js</a></li>
-                                 <li><a href="#!">React js</a></li>
-                                 <li><a href="#!">Vue js</a></li>
-                                 <li><a href="#!">Typescript</a></li>
-                                 <li><a href="#!">Ember js</a></li>
-                                 <li><a href="#!">Angular js</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="footerBottom">
-            <div class="container">
-               <div class="innerWrap">
-                  <div class="copyWrite">
-                     <p>© 2022 codieslab . All rights reserved</p>
-                  </div>
-                  <div class="footNav">
-                     <a href="#!">Terms & Conditions</a> |
-                     <a href="/privacy-policies.html">Privacy Policy</a> |
-                     <a href="#!">Sitemap</a> |
-                     <a href="#!">Disclaimer</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-	<!-- Popup start  -->
-	<div class="popup" data-popup="popup-1">
-		<div class="popup-inner">
-		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/D0UnqGm_miA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-		<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
-		</div>
-	</div>
-	<!-- Popup end  -->  
+global $post;
 
-</div><!-- #page -->
-<?php wp_footer(); ?>
-</body>
+$location = get_field('location', 'option');
+$site_details = (get_field('site_details', 'option'))?get_field('site_details', 'option'):'';
+
+$social_media = get_field('social_media', 'option');
+
+$copy_write_text = (get_field('copy_write_text', 'option'))?get_field('copy_write_text', 'option'):'';
+
+?>
+         <footer>
+            <!-- global leader start -->
+            <div class="globalLeader">
+               <div class="container">
+                  <div class="innerWrap">
+                     <?php echo do_shortcode('[email-subscribers-form id="1"]'); ?>
+                  </div>
+               </div>
+            </div>
+            <div class="footerTop">
+               <div class="container">
+                  <div class="location row">
+                     <?php
+                     if  (isset($location) && !empty($location)) {
+                        foreach ($location as $key_loc => $loc) { ?>
+                           <div class="item part-md-4">
+                              <div class="innerWrap">
+                                 <div class="img">
+                                    <img src="<?php echo (isset($loc['location_name']) && $loc['location_name'] !='' )? $loc['location_image']['url']: '#'; ?>" alt="<?php echo $loc['location_name']; ?>" />
+                                 </div>
+                                 <div class="txt">
+                                    <?php 
+                                      if(isset($loc['location_name']) && $loc['location_name'] !='' ){
+                                       echo '<h4>'.$loc['location_name'].'</h4>';
+                                      }
+                                      if(isset($loc['location_address']) && $loc['location_address'] !='' ){
+                                       echo '<p>'.$loc['location_address'].'</p>';
+                                      }
+                                      if( (isset($loc['location_phone']) && $loc['location_phone'] !=='' ) && (isset($loc['location_email_id']) && $loc['location_email_id'] !='' )){
+                                       echo '<ul class="contactDtl">
+                                                <li class="phone"><a href="tel:'.$loc['location_phone'].'">'.$loc['location_phone'].'</a></li>
+                                                <li class="phone"><a href="mail:'.$loc['location_email_id'].'">'.$loc['location_email_id'].'</a></li>
+                                             </ul>';
+                                      }  ?>                             
+                                 </div>
+                              </div>
+                           </div>    
+                     <?php }
+                     } ?>                  
+                  </div>
+                  <div class="footElement row">
+                     <div class="part-md-5">
+                        <div class="footLogo">
+                           <a href="<?php echo (isset($site_details['url']['url']) && $site_details['url']['url'] !='' )? $site_details['url']['url']: '#'; ?>">
+                              <img src="<?php echo (isset($site_details['logo']['url']) && $site_details['logo']['url'] !='' ) ? $site_details['logo']['url']: '#'; ?>" alt="" />
+                           </a>
+                        </div>
+                        <?php 
+                           if(isset($site_details['description']) && $site_details['description'] !='' ){
+                              echo '<p>'.$site_details['description'].'</p>';
+                           }
+                        ?>
+                        <div class="connect">
+                           <?php 
+                              if(isset($site_details['label']) && $site_details['label'] !='' ){
+                                 echo '<p>'.$site_details['label'].'</p>';
+                              }
+                           
+                           if(isset($site_details['email']) && $site_details['email'] !='' ){
+                              echo '<p><a href="mail:'.$site_details['email'].'" class="mail">'.$site_details['email'].'</a></p>';
+                           }
+                           ?>
+                           <div class="socialBtn">
+                              <ul>
+                              <?php 
+                                 if (isset($social_media) && !empty($social_media)) {
+                                    foreach ($social_media as $key_sm => $menu_sm ) {
+                                       echo '<li><a href="'.$menu_sm['link'].'" target="_blank"><img src="'.$menu_sm['icon'].'"/></a></li>';
+                                    }
+                                 }
+                              ?>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="part-md-7">
+                        <?php if ( has_nav_menu( 'footer-menu' ) ) : ?>
+                        <div class="quickLinksFoot">                  
+                           <?php 
+                           wp_nav_menu( 
+                              array(
+                                    'container'     => '',
+                                    'menu_id'       => 'footer-menu',
+                                    'menu_class'    => '',
+                                    'theme_location'=> 'footer-menu',
+                                    'link_before'   => '',
+                                    'link_after'    => '',
+                                    'items_wrap'    => '<div id="%s" class="%s row">%s</div>',
+                                    'walker'         => new WPSE_footer_Walker
+                                ) 
+                           );
+                          ?>
+                        </div>
+                     <?php endif; ?>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footerBottom">
+               <div class="container">
+                  <div class="innerWrap">
+                     <div class="copyWrite">
+                        <p><?php echo '© '.date("Y").' '. $copy_write_text; ?></p>
+                     </div>
+                     <?php if ( has_nav_menu( 'footer-bottom-menu' ) ) : ?>
+                     <div class="footNav">                     
+                     <?php
+                        $menuParameters = array(
+                          'theme_location'=> 'footer-bottom-menu',
+                          'container'     => false,
+                          'echo'          => false,
+                          'link_before'   => '',
+                          'link_after'    => '',
+                          'before'        => '',
+                          'after'         => '|',
+                          'items_wrap'    => '%3$s',
+                          'depth'         => 0,
+                        );
+                        echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' ); 
+                       ?>
+                     </div>
+                     <?php endif; ?>
+                  </div>
+               </div>
+            </div>
+         </footer>
+
+      </div><!-- #page -->
+   <?php wp_footer(); ?>
+   </body>
 </html>

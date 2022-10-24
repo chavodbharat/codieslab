@@ -60,17 +60,17 @@ function custom_post_type() {
          */
          // Set UI labels for Custom Post Type
          $labels = array(
-            'name'                => _x( 'casestudy', 'Post Type General Name', 'codieslab' ),
-            'singular_name'       => _x( 'casestudy', 'Post Type Singular Name', 'codieslab' ),
-            'menu_name'           => __( 'casestudy', 'codieslab' ),
-            'parent_item_colon'   => __( 'Parent casestudy', 'codieslab' ),
-            'all_items'           => __( 'All casestudy', 'codieslab' ),
-            'view_item'           => __( 'View casestudy', 'codieslab' ),
-            'add_new_item'        => __( 'Add New casestudy', 'codieslab' ),
+            'name'                => _x( 'Case Study', 'Post Type General Name', 'codieslab' ),
+            'singular_name'       => _x( 'Case Study', 'Post Type Singular Name', 'codieslab' ),
+            'menu_name'           => __( 'Case Study', 'codieslab' ),
+            'parent_item_colon'   => __( 'Parent Case Study', 'codieslab' ),
+            'all_items'           => __( 'All Case Study', 'codieslab' ),
+            'view_item'           => __( 'View Case Study', 'codieslab' ),
+            'add_new_item'        => __( 'Add New Case Study', 'codieslab' ),
             'add_new'             => __( 'Add New', 'codieslab' ),
-            'edit_item'           => __( 'Edit casestudy', 'codieslab' ),
-            'update_item'         => __( 'Update casestudy', 'codieslab' ),
-            'search_items'        => __( 'Search casestudy', 'codieslab' ),
+            'edit_item'           => __( 'Edit Case Study', 'codieslab' ),
+            'update_item'         => __( 'Update Case Study', 'codieslab' ),
+            'search_items'        => __( 'Search Case Study', 'codieslab' ),
             'not_found'           => __( 'Not Found', 'codieslab' ),
             'not_found_in_trash'  => __( 'Not found in Trash', 'codieslab' ),
         );
@@ -78,8 +78,8 @@ function custom_post_type() {
     // Set other options for Custom Post Type
           
         $args = array(
-            'label'               => __( 'casestudy', 'codieslab' ),
-            'description'         => __( 'casestudy news and reviews', 'codieslab' ),
+            'label'               => __( 'Case Study', 'codieslab' ),
+            'description'         => __( 'Case Study news and reviews', 'codieslab' ),
             'labels'              => $labels,
             // Features this CPT supports in Post Editor
             'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
@@ -107,6 +107,32 @@ function custom_post_type() {
           
         // Registering your Custom Post Type
         register_post_type( 'casestudy', $args );
+
+         // Add new taxonomy, make it hierarchical (like categories)
+        $labels1 = array(
+            'name' => _x('Case Study Type', 'taxonomy general name', 'codieslab'),
+            'singular_name' => _x('Case Study Type', 'taxonomy singular name', 'codieslab'),
+            'search_items' => __('Search Case Study Type', 'codieslab'),
+            'all_items' => __('All Case Study Type', 'codieslab'),
+            'parent_item' => __('Parent Case Study Type', 'codieslab'),
+            'parent_item_colon' => __('Parent Case Study Type:', 'codieslab'),
+            'edit_item' => __('Edit Case Study Type', 'codieslab'),
+            'update_item' => __('Update Case Study Type', 'codieslab'),
+            'add_new_item' => __('Add New Case Study Type', 'codieslab'),
+            'new_item_name' => __('New Case Study Type Name', 'codieslab'),
+            'menu_name' => __('Case Study Type', 'codieslab'),
+        );
+
+        $args1 = array(
+            'hierarchical' => true,
+            'labels' => $labels1,
+            'show_ui' => true,
+            'show_admin_column' => true,
+            'query_var' => true,
+            'rewrite' => array('slug' => 'casestudy_type'),
+        );
+
+    register_taxonomy('casestudy_type', array('casestudy'), $args1);
       
     }
       

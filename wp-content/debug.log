@@ -1,0 +1,107 @@
+[17-Oct-2022 16:33:10 UTC] PHP Notice:  Undefined variable: bool in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\header.php on line 82
+[17-Oct-2022 16:33:11 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:33:11 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:33:11 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:14 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:14 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:14 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:32 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:32 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:32 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:43 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:43 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:43 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:50 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:50 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:50 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:54 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:54 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:34:54 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:36:19 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:36:19 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:36:19 UTC] PHP Notice:  Undefined variable: n in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\functions.php on line 444
+[17-Oct-2022 16:39:15 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:39:15 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:39:15 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:39:15 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:39:51 UTC] PHP Deprecated:  Function get_author_name is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('display_name') instead. in C:\xampp\htdocs\bharat\codieslab\wp-includes\functions.php on line 5379
+[17-Oct-2022 16:42:33 UTC] PHP Deprecated:  Function get_author_name is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('display_name') instead. in C:\xampp\htdocs\bharat\codieslab\wp-includes\functions.php on line 5379
+[17-Oct-2022 16:46:31 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:46:31 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:46:31 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 16:46:31 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 17:19:10 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 17:19:10 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 17:19:10 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 17:19:10 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[17-Oct-2022 17:20:09 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 03:41:18 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[18-Oct-2022 03:41:18 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[18-Oct-2022 03:41:18 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[18-Oct-2022 03:41:18 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[18-Oct-2022 16:40:37 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:41:05 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:42:04 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:44:26 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:47:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:49:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[18-Oct-2022 16:50:40 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\footer.php on line 14
+[19-Oct-2022 15:29:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[19-Oct-2022 15:29:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[19-Oct-2022 15:29:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[19-Oct-2022 15:29:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 08:49:00 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 08:49:00 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 08:49:00 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 08:49:00 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:36:49 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:36:49 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:36:49 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:36:49 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:56:48 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:56:48 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:56:48 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:56:48 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:58:03 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:58:03 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:58:04 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:58:04 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\archive-casestudy.php on line 52
+[23-Oct-2022 09:58:55 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:58:55 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:58:55 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:58:55 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:59:56 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:59:56 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:59:56 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 09:59:56 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 13:16:05 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 13:16:05 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 13:16:05 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[23-Oct-2022 13:16:05 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 03:10:50 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 7
+[24-Oct-2022 03:11:20 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 27
+[24-Oct-2022 03:11:20 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 27
+[24-Oct-2022 03:11:20 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 27
+[24-Oct-2022 03:11:20 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 42
+[24-Oct-2022 03:11:54 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:11:54 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:11:54 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:11:54 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 39
+[24-Oct-2022 03:13:59 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:13:59 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:13:59 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:13:59 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 39
+[24-Oct-2022 03:14:32 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:14:32 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:14:32 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 25
+[24-Oct-2022 03:14:32 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\companycounting.php on line 39
+[24-Oct-2022 12:01:11 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\homebanner.php on line 80
+[24-Oct-2022 12:01:40 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\template-parts\sections\homebanner.php on line 99
+[24-Oct-2022 12:35:58 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:35:58 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:35:58 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:35:58 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:43:01 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:43:01 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:43:01 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70
+[24-Oct-2022 12:43:01 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\bharat\codieslab\wp-content\themes\codieslab\casestudies-template.php on line 70

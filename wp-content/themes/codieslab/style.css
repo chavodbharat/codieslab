@@ -2230,11 +2230,11 @@ html .secNavToggleMobile img{
     display: none;
 }
 .collapseMain .ui-accordion-header{
-    font-size: 22px;
-    font-weight: bold;
-    background: transparent;
+    font-size: 22px!important;
+    font-weight: bold!important;
+    background: transparent!important;
     color: var(--color-nevy-blue-01);
-    position: relative;
+    position: relative!important;
     border: none;
     border-bottom: 2px dashed var(--color-pink);
     padding-top: 30px;
@@ -3139,4 +3139,75 @@ html .secNavToggleMobile img{
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+}
+
+/*new css*/
+
+.es_subscription_form.es_shortcode_form .es_caption {
+    font-family: var(--font-first-per)!important;
+    font-weight: 600!important;
+    color: var(--color-nevy-blue-01)!important;
+    font-size: 24px!important;
+    letter-spacing: -0.67px!important;
+    width: 45%!important;
+}
+.es_subscription_form.es_shortcode_form input.es_required_field.es_txt_email.ig_es_form_field_email {
+    width: 100%;
+    border-radius: 6px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid var(--grey-04);
+    height: 48px;
+    padding: 10px 15px;
+    max-width: 360px;
+    margin-right: 20px;
+}
+input.es_subscription_form_submit.es_submit_button.es_textbox_button {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-color: var(--color-pink);
+    font-size: 14px;
+    font-weight: 700;
+    /* display: inline-block; */
+    border: 1px solid transparent;
+    padding: 0.8rem 2rem;
+    font-family: var(--font-first-per);
+    margin: 0px 10px 0px 0px!important;
+    border-radius: 0.25rem!important;
+}
+form.es_subscription_form.es_shortcode_form {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap!imprtant;
+    align-content: center;
+    align-items: center;
+}
+.es-field-wrap {
+    width: 40%!important;
+}
+.section-defualt {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    position: relative;
+}
+h1.page-title-defualt {
+    font-size: 3.25rem;
+    color: var(--color-white);
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px){
+    form.es_subscription_form.es_shortcode_form {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .es_subscription_form.es_shortcode_form .es_caption {
+        width: 100%!important;
+    }
+    .es-field-wrap {
+        width: 100%!important;
+    }
 }

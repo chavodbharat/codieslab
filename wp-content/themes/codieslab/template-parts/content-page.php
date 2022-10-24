@@ -10,6 +10,33 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+	<section class="pages">			
+		<div class="homeBanner ">
+	        <div class="container">
+	            <div class="innerWrap">
+	            	<?php the_title( '<h1 class="page-title-defualt entry-title">', '</h1>' ); ?>
+	            </div>
+         	</div>
+        </div>
+         <div class="section-defualt entry-content">
+         <div class="container">
+            <div class="row">
+             	<?php
+				the_content();
+
+				wp_link_pages(
+					array(
+						'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'codieslab' ),
+						'after'  => '</div>',
+					)
+				);
+				?>
+            </div>
+         </div>
+      </div>
+	</section>
+	<?php /* ?>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
@@ -35,7 +62,6 @@
 			edit_post_link(
 				sprintf(
 					wp_kses(
-						/* translators: %s: Name of current post. Only visible to screen readers */
 						__( 'Edit <span class="screen-reader-text">%s</span>', 'codieslab' ),
 						array(
 							'span' => array(
@@ -50,5 +76,6 @@
 			);
 			?>
 		</footer><!-- .entry-footer -->
-	<?php endif; ?>
+	<?php endif;  ?>
+	<?php */ ?>
 </article><!-- #post-<?php the_ID(); ?> -->
